@@ -69,4 +69,9 @@ public enum MathSansBold implements EnumBase {
             return String.valueOf(c);
         }
     }
+
+    @Override
+    public String getName(){
+        return "Math Sans Bold";
+    }
 }

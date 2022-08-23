@@ -60,11 +60,17 @@ public enum GothicStyle implements EnumBase {
         this.unicode = unicode;
     }
 
+    @Override
     public String convert(char c) {
         try {
             return GothicStyle.valueOf(String.valueOf(c)).unicode;
         } catch (IllegalArgumentException e) {
             return String.valueOf(c);
         }
+    }
+
+    @Override
+    public String getName(){
+        return "Gothic Style";
     }
 }

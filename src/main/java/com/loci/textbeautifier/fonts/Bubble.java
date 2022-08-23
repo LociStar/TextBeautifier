@@ -69,4 +69,9 @@ public enum Bubble implements EnumBase {
             return String.valueOf(c);
         }
     }
+
+    @Override
+    public String getName(){
+        return "Bubble";
+    }
 }

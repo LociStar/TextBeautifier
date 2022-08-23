@@ -37,11 +37,17 @@ public enum Emoji implements EnumBase {
         this.unicode = unicode;
     }
 
+    @Override
     public String convert(char c) {
         try {
             return Emoji.valueOf(String.valueOf(c).toUpperCase(Locale.ROOT)).unicode;
         } catch (IllegalArgumentException e) {
             return String.valueOf(c);
         }
+    }
+
+    @Override
+    public String getName(){
+        return "Emoji";
     }
 }

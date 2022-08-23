@@ -37,11 +37,17 @@ public enum BlackSquare implements EnumBase{
         this.unicode = unicode;
     }
 
+    @Override
     public String convert(char c) {
         try {
             return BlackSquare.valueOf(String.valueOf(c).toUpperCase(Locale.ROOT)).unicode;
         } catch (IllegalArgumentException e) {
             return String.valueOf(c);
         }
+    }
+
+    @Override
+    public String getName(){
+        return "Black Square";
     }
 }

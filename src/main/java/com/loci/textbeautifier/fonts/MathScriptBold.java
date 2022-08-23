@@ -68,4 +68,9 @@ public enum MathScriptBold implements EnumBase {
             return String.valueOf(c);
         }
     }
+
+    @Override
+    public String getName(){
+        return "Math Script Bold";
+    }
 }
