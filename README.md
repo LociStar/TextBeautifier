@@ -65,6 +65,6 @@ Maven dependency (via jitpack):
 <dependency>
     <groupId>com.github.LociStar</groupId>
     <artifactId>TextBeautifyer</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>Tag</version>
 </dependency>
 ```
