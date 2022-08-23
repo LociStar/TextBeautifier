@@ -1,6 +1,7 @@
 //Test to all com.loci.textbeautifier.fonts in Fonts
 
 import com.loci.textbeautifier.Font;
+import com.loci.textbeautifier.fonts.GothicStyle;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -37,4 +38,8 @@ public class FontTest {
         assertEquals("ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ", Font.toBubbleStyle("ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz"));
     }
 
+    @Test
+    public void testGetName() {
+        assertEquals("Gothic Style", GothicStyle.getName());
+    }
 }
