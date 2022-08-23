@@ -2,15 +2,20 @@
 Convert your strings into a more beautiful version
 
 ## Usage
-Use the Font class to change the font of your string.<br>
+Use the Font class to change the font of your string and/or add a decor to your string.<br>
 (Up to 6 font presets are available)
 
 Example:
 ```java
 Font.toEmojiStyle("Hello World");
+Font.toLetterWithDecoration("Hello World");
 ```
-output -> "♓🎗👢👢⚽  🔱⚽🌱👢🌛"
-
+output:<br>
+```
+"♓🎗👢👢⚽  🔱⚽🌱👢🌛"<br>
+"⊢H⊣⊢e⊣⊢l⊣⊢l⊣⊢o⊣ ⊢W⊣⊢o⊣⊢r⊣⊢l⊣⊢d⊣"
+```
+<br>
 You can also use your own custom Fonts.<br>
 For this case, create your own Enum and let it implement EnumBase. <br>
 Then use the Font class to change the font of your string.
