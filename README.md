@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/LociStar/TextBeautifier.svg)](https://jitpack.io/#LociStar/TextBeautifier)
+
 # TextBeautifier
 Convert your strings into a more beautiful version
 
