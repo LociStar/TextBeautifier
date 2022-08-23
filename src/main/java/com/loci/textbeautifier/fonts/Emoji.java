@@ -1,4 +1,4 @@
-package fonts;
+package com.loci.textbeautifier.fonts;
 
 import java.util.Locale;
 

@@ -1,4 +1,4 @@
-package fonts;
+package com.loci.textbeautifier.fonts;
 
 public enum GothicStyle implements EnumBase {
     A("𝕬"),

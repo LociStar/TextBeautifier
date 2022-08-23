@@ -1,4 +1,6 @@
-import fonts.EnumBase;
+package com.loci.textbeautifier;
+
+import com.loci.textbeautifier.fonts.EnumBase;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.List;
 public class Converter {
 
     //convert text to emoji
-    public static <T extends EnumBase> String convertToFont(String text, EnumBase aEnum) {
+    public static <T> String convertToFont(String text, EnumBase aEnum) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < text.length(); i++) {
             sb.append(aEnum.convert(text.charAt(i)));

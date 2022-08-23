@@ -4,13 +4,13 @@
 Convert your strings into a more beautiful version
 
 ## Usage
-Use the Font class to change the font of your string and/or add a decor to your string.<br>
+Use the com.loci.textbeautifier.Font class to change the font of your string and/or add a decor to your string.<br>
 (Up to 6 font presets are available)
 
 Example:
 ```java
-Font.toEmojiStyle("Hello World");
-Font.toLetterWithDecoration("Hello World");
+com.loci.textbeautifier.Font.toEmojiStyle("Hello World");
+com.loci.textbeautifier.Font.toLetterWithDecoration("Hello World");
 ```
 output:<br>
 ```
@@ -20,7 +20,7 @@ output:<br>
 <br>
 You can also use your own custom Fonts.<br>
 For this case, create your own Enum and let it implement EnumBase. <br>
-Then use the Font class to change the font of your string.
+Then use the com.loci.textbeautifier.Font class to change the font of your string.
 
 Example:
 ```java
@@ -47,7 +47,7 @@ public enum MyFont implements EnumBase {
 }
 ```
 ```java
-Font.toCustomFontStyle("Hello World", MyFont.A);
+com.loci.textbeautifier.Font.toCustomFontStyle("Hello World", MyFont.A);
 ```
 
 ## Installation

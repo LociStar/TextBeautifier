@@ -1,6 +1,5 @@
-package fonts;
+package com.loci.textbeautifier.fonts;
 
-import java.util.EnumSet;
 import java.util.Locale;
 
 //🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉

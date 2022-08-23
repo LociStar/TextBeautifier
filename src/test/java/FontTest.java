@@ -1,5 +1,6 @@
-//Test to all fonts in Fonts
+//Test to all com.loci.textbeautifier.fonts in Fonts
 
+import com.loci.textbeautifier.Font;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

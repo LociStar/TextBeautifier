@@ -1,4 +1,6 @@
-import fonts.*;
+package com.loci.textbeautifier;
+
+import com.loci.textbeautifier.fonts.*;
 
 public class Font {
     public static String toGothicStyle(String text) {
