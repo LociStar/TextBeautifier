@@ -25,7 +25,7 @@ public class Font {
         return Converter.convertToFont(text, Bubble.A);
     }
 
-    public static String toWordWithDecor(String text) {
+    public static String toWordWithDecoration(String text) {
         return Converter.addSuffixAndPrefixToWord(text, "【", "】");
     }
 
