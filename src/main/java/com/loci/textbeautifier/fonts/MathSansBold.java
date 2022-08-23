@@ -70,8 +70,7 @@ public enum MathSansBold implements EnumBase {
         }
     }
 
-    @Override
-    public String getName(){
+    public static String getName(){
         return "Math Sans Bold";
     }
 }

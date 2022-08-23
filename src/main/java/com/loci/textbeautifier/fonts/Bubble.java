@@ -70,8 +70,7 @@ public enum Bubble implements EnumBase {
         }
     }
 
-    @Override
-    public String getName(){
+    public static String getName(){
         return "Bubble";
     }
 }
