@@ -12,7 +12,7 @@ Font.toLetterWithDecoration("Hello World");
 ```
 output:<br>
 ```
-"♓🎗👢👢⚽  🔱⚽🌱👢🌛"<br>
+"♓🎗👢👢⚽  🔱⚽🌱👢🌛"
 "⊢H⊣⊢e⊣⊢l⊣⊢l⊣⊢o⊣ ⊢W⊣⊢o⊣⊢r⊣⊢l⊣⊢d⊣"
 ```
 <br>
