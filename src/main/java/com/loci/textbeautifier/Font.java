@@ -43,7 +43,7 @@ public class Font {
         return Converter.addSuffixAndPrefixToLetter(text, "[̲̅", "]");
     }
 
-    public static String toTextWithDecoration4(String text) {
+    public static String toTextWithDecoration(String text) {
         return Converter.addSuffixAndPrefixToText(text, "(っ◔◡◔)っ ♥ ", " ♥");
     }
 
