@@ -64,7 +64,7 @@ Maven dependency (via jitpack):
 ```xml
 <dependency>
     <groupId>com.github.LociStar</groupId>
-    <artifactId>TextBeautifyer</artifactId>
+    <artifactId>TextBeautifier</artifactId>
     <version>v1.0.0</version>
 </dependency>
 ```
